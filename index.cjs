@@ -16,4 +16,8 @@ module.exports = Application({
         return 'https://q1.qlogo.cn/headimg_dl?dst_uin=' + q + '&spec=4';
       }
     },
+    // 违禁词
+  forbiddenWords: ['免费节点'],
+    // 黑名单
+  disallowIPList: ['4.4.4.4'],
 });
